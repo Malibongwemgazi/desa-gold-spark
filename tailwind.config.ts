@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,17 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				banking: {
+					DEFAULT: '#0A2647',
+					light: '#144272',
+					gold: '#FFD700',
+					goldLight: '#FEF9E7',
+					goldDark: '#D4AF37',
+					accent: '#2C74B3',
+					accentLight: '#5499C7',
+					dark: '#1A1F2C',
+					gray: '#8E9196',
 				}
 			},
 			borderRadius: {
@@ -84,11 +96,25 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'fade-in': {
+					'0%': {
+						opacity: '0',
+						transform: 'translateY(10px)'
+					},
+					'100%': {
+						opacity: '1',
+						transform: 'translateY(0)'
+					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'fade-in': 'fade-in 0.5s ease-out forwards'
+			},
+			backgroundImage: {
+				'gold-gradient': 'linear-gradient(135deg, #FFD700 0%, #D4AF37 100%)',
 			}
 		}
 	},
