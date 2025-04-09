@@ -64,15 +64,17 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				banking: {
-					DEFAULT: '#1E3A8A', // Deep royal blue (more vibrant than previous)
-					light: '#3B82F6', // Bright blue
-					gold: '#F59E0B', // Amber gold (warmer, more visible)
-					goldLight: '#FEF3C7', // Light amber
-					goldDark: '#D97706', // Dark amber
-					accent: '#6366F1', // Indigo (distinctive accent)
-					accentLight: '#A5B4FC', // Light indigo
+					DEFAULT: '#0EA5E9', // Bright Ocean Blue
+					light: '#38BDF8', // Sky Blue
+					gold: '#F59E0B', // Keep gold for card only
+					goldLight: '#FEF3C7', // Light amber (for card only)
+					goldDark: '#D97706', // Dark amber (for card only)
+					accent: '#8B5CF6', // Vivid Purple
+					accentLight: '#A78BFA', // Light Purple
 					dark: '#1E293B', // Slate dark
 					gray: '#94A3B8', // Slate gray
+					primary: '#D946EF', // Magenta Pink
+					secondary: '#F97316', // Bright Orange
 				}
 			},
 			borderRadius: {
