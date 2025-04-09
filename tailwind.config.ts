@@ -64,15 +64,15 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				banking: {
-					DEFAULT: '#0A2647',
-					light: '#144272',
-					gold: '#FFD700',
-					goldLight: '#FEF9E7',
-					goldDark: '#D4AF37',
-					accent: '#2C74B3',
-					accentLight: '#5499C7',
-					dark: '#1A1F2C',
-					gray: '#8E9196',
+					DEFAULT: '#1E3A8A', // Deep royal blue (more vibrant than previous)
+					light: '#3B82F6', // Bright blue
+					gold: '#F59E0B', // Amber gold (warmer, more visible)
+					goldLight: '#FEF3C7', // Light amber
+					goldDark: '#D97706', // Dark amber
+					accent: '#6366F1', // Indigo (distinctive accent)
+					accentLight: '#A5B4FC', // Light indigo
+					dark: '#1E293B', // Slate dark
+					gray: '#94A3B8', // Slate gray
 				}
 			},
 			borderRadius: {
@@ -114,7 +114,7 @@ export default {
 				'fade-in': 'fade-in 0.5s ease-out forwards'
 			},
 			backgroundImage: {
-				'gold-gradient': 'linear-gradient(135deg, #FFD700 0%, #D4AF37 100%)',
+				'gold-gradient': 'linear-gradient(135deg, #F59E0B 0%, #D97706 100%)',
 			}
 		}
 	},

@@ -23,7 +23,7 @@ const GoldCard: React.FC<GoldCardProps> = ({
   };
   
   return (
-    <div className="gold-card w-full max-w-md h-56 p-6 text-banking-dark">
+    <div className="gold-card w-full max-w-md h-56 p-6 text-banking-dark drop-shadow-xl">
       <div className="card-shine"></div>
       
       <div className="flex flex-col h-full justify-between relative z-10">

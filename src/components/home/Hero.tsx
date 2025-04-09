@@ -5,7 +5,7 @@ import { ArrowRight } from 'lucide-react';
 
 const Hero = () => {
   return (
-    <section className="relative bg-gradient-to-br from-banking-DEFAULT to-banking-light text-white overflow-hidden">
+    <section className="relative bg-gradient-to-br from-banking-DEFAULT to-banking-accent text-white overflow-hidden">
       <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1605810230434-7631ac76ec81?auto=format&fit=crop&q=80')] opacity-10 bg-cover bg-center mix-blend-overlay"></div>
       <div className="container mx-auto px-4 py-20 md:py-32 relative z-10">
         <div className="max-w-2xl animate-fade-in">
